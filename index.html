@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body id="main">
+    <h1 class="test" id="title" >Movie Survey Form</h1>
+    <p class="test" id="description">Tell us about your movie preferences</p>
+    <form id="survey-form" class="test" action="mailto:karroge10@gmail.com" method="post" enctype="text/plain">
+        <label for"name" id="name-label" style="font-size:130%;">Enter your name: </label><br>
+        <input type="text" id="name" name="name" placeholder="John" required><br>
+        <label for"email" id="email-label" style="font-size:130%;">Enter your email: </label><br>
+        <input type="email" id="email" name="email" placeholder="john@gmail.com" required><br>
+        <label for"number" id="number-label" style="font-size:130%;">Enter your age: </label><br>
+        <input type="number" id="number" name="number" min="1" max="120" placeholder="25"><br>
+
+        <label style="font-size:130%;" for="radio-buttons">Are you a big fan of movies?</label><br>
+            <input type="radio" id="radio-buttons" name="movie-fan" value="yes">Yes<br>
+            <input type="radio" id="radio-buttons" name="movie-fan" value="little">A little bit<br>
+            <input type="radio" id="radio-buttons" name="movie-fan" value="no">No<br>
+            
+        <label for="dropdown" style="font-size:130%;">Choose your favorite genre: </label><br>
+        <select name="favorite-movie" id="dropdown">
+            <option value="horror">Horror</option>
+            <option value="comedy">Comedy</option>
+            <option value="action">Action</option>
+            <option value="drama">Drama</option>
+            <option value="drama">Fiction</option>
+            <option value="drama">Romance</option>
+            <option value="drama">Crime</option>
+            <option value="drama">Animation</option>
+        </select><br>
+
+        <div id="checklist">
+            <label style="font-size:130%;" for="checkboxes" >What are the most important aspects of a movie for you?</label><br>
+                <input type="checkbox" id="checkboxes" name="important-aspect" value="cinematography">Cinematography<br>
+                <input type="checkbox" id="checkboxes" name="important-aspect" value="cast">Cast<br>
+                <input type="checkbox" id="checkboxes" name="important-aspect" value="soundtrack">Soundtrack<br>
+                <input type="checkbox" id="checkboxes" name="important-aspect" value="action">Action scenes<br>
+                <input type="checkbox" id="checkboxes" name="important-aspect" value="script">Script<br>
+                <input type="checkbox" id="checkboxes" name="important-aspect" value="editing">Editing<br>
+        </div>
+        <p style="font-size:130%;">What is your favorite movie?</p>
+        <textarea id="favmovie" name="favorite-movie" placeholder="Enter the name of the movie here"></textarea><br>
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>

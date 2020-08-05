@@ -1,0 +1,99 @@
+/*Blurry background image*/
+html {
+	background: url(images/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*Form box style*/
+form {
+	background: #f1f1f1b3;
+	border-radius: 0.3rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+	text-align: left;
+	padding: 30px;
+	box-shadow: 0px 0px 41px 11px rgba(0, 0, 0, 0.23);
+}
+
+/*Changes width and font size for mobile screens*/
+@media screen and (min-device-width: 901px) {
+	form.test {
+		font-size: 14px;
+	}
+}
+@media screen and (max-device-width: 900px) {
+	form.test {
+		width: 75%;
+	}
+	h1.test {
+		font-size: 44px;
+	}
+	p.test {
+		font-size: 22px;
+	}
+}
+/*Font styles*/
+#main {
+	color: rgb(31, 28, 28);
+	font-weight: bold;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#title {
+	margin-top: 40px;
+	text-align: center;
+	color: rgb(240, 240, 240);
+	text-shadow: 2px 2px 4px #000000;
+}
+#description {
+	margin: 0px 0px 30px 0px;
+	font-style: italic;
+	text-align: center;
+	color: rgb(240, 240, 240);
+	text-shadow: 2px 2px 4px #000000;
+}
+/*Margin, height and width for each element inside form*/
+#name {
+	width: 100%;
+	height: 1.5rem;
+	margin: 10px 0px 20px 0px;
+}
+#email {
+	width: 100%;
+	height: 1.5rem;
+	margin: 10px 0px 20px 0px;
+}
+#number {
+	width: 100%;
+	height: 1.3rem;
+	margin: 10px 0px 20px 0px;
+}
+#dropdown {
+	margin: 10px 0px 5px 0px;
+	width: 15%;
+	height: 1.5rem;
+}
+#radio-buttons {
+	margin: 7px 0px 15px 0px;
+}
+#checkboxes {
+	margin: 13px 0px 0px 0px;
+}
+#checklist {
+	margin-top: 20px;
+}
+#favmovie {
+	width: 40%;
+	height: 2rem;
+	margin-bottom: 10px;
+}
+#submit {
+	width: 100%;
+	height: 2rem;
+	margin-top: 10px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.9);
+}
