@@ -1,12 +1,16 @@
-### Welcome to Movie Survey Form Website
+# Movie Survey Form Website
 
-##This is my second website project in the FreeCodeCamp Responsive Web Design course.
+Movie Survey Form is a website that lets you fill out a form about your movie preferences.
 
-##DETAILS
-#It utilizes features like input fields for text, email, number (in a certain range), radio buttons, checkboxes, submit button.
+This is my second project in the Responsive Web Design course at FreeCodeCamp.
 
-#The website is also optimized for mobile devices using media queries.
+## Details
 
-### Support or Contact
+The website utilizes features like input fields for text, email, number (in a certain range), radio buttons, checkboxes, submit buttons.
 
-Have any suggestions or interesting on working with me? My email is karroge10@gmail.com.
+The website is also optimized for mobile devices using media queries.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
