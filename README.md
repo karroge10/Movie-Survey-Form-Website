@@ -13,11 +13,10 @@ It is also responsive on mobile devices thanks to media queries.
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
-
 ## Support or Contact
+I am very opened to suggestions and learning about new techniques that can help me improve my skills.
 
-Have any suggestions or interested in contacting me? Send me a message! 
+Have any recommendations or interested in contacting me? Send me a message!
 
 My email is karroge10@gmail.com.
 
