@@ -8,7 +8,7 @@ This is my second project in the Responsive Web Design course at FreeCodeCamp.
 
 The website utilizes features like input fields for text, email, number (in a certain range), radio buttons, checkboxes, submit buttons.
 
-The website is also optimized for mobile devices using media queries.
+It is also optimized for mobile devices using media queries.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
